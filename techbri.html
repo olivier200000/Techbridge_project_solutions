@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TechBridge Solutions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="techbri.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="Log.png" alt="TechBridge Solutions Logo">
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Bridging Business Needs with Emerging Technologies</h1>
+    <p>Innovative Media Technology & Integrated IT Solutions</p>
+    <button onclick="scrollToServices()">Our Services</button>
+  </section>
+
+  <section id="about" class="section">
+    <h2>Company Overview</h2>
+    <p>
+      <strong>TECHBRIDGE SOLUTIONS</strong> specializes in media technology, IT solutions,
+      and system integration services. We empower businesses through innovative and
+      integrated technology solutions that bridge business needs with emerging technologies.
+    </p>
+
+    <h2>Our Vision</h2>
+    <p>
+      To become a leading provider of comprehensive media technology and integrated IT solutions,
+      driving digital transformation and sustainable growth.
+    </p>
+
+    <h2>Our Mission</h2>
+    <p>
+      To deliver high-quality and innovative technology solutions that empower clients to improve
+      communication, education, operational efficiency, growth, and sustainability.
+    </p>
+  </section>
+
+  <section class="section light">
+    <h2>Core Values</h2>
+    <ul>
+      <li><strong>Innovation:</strong> Continuous improvement and creativity</li>
+      <li><strong>Integrity:</strong> Transparency, honesty, and fairness</li>
+      <li><strong>Collaboration:</strong> Client-focused teamwork</li>
+      <li><strong>Excellence:</strong> Highest quality standards</li>
+    </ul>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">Media Technology Solutions (Studios, Smart Classrooms, Streaming)</div>
+      <div class="card">IT Infrastructure & Systems Integration</div>
+      <div class="card">Digital Transformation Consulting</div>
+      <div class="card">Media & IT Project Management</div>
+      <div class="card">Camera & Lighting Installation for Homes</div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section light">
+    <h2>Our Installations</h2>
+    <div class="gallery">
+      <img src="house-background.jpg">
+      <img src="light1.jpg">
+      <img src="light2.jpg">
+      <img src="light3.jpg">
+      <img src="light4.jpg">
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form onsubmit="sendMessage(event)">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 TechBridge Solutions. All rights reserved.</p>
+  </footer>
+
+  <script src="techbri.js"></script>
+</body>
+</html>
